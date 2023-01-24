@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  padding-bottom: 20px;
+  background-color: aquamarine;
+}
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 100px;
+  color: blue;
+}
+.big-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .no-big-box {
+  display: none;
+} */
+
+.joke-box {
+  border-radius: 20px;
+  /* background-color: aqua; */
+  font-size: 20px;
+  margin: 1.5rem 0;
+  width: 1000px;
+  padding: 4rem;
+}
+.question-jokes {
+  background-color: rgb(21, 107, 227);
+  color: white;
+}
+
+.question-joke {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.knock-jokes {
+  background-color: yellow;
+  font-size: 30px;
+}
+
+.chuk-noris-jokes {
+  background-color: rgb(18, 41, 213);
+  color: rgb(87, 248, 248);
+}
+
+.read-jokes-button-div {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 30px;
+}
+.read-jokes-button {
+  cursor: pointer;
+  background-color: purple;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.read-jokes-button:hover {
+  background-color: rgb(209, 45, 209);
+}
+/* .read-jokes-button:hover {
+  background-color: rgb(209, 45, 209);
+} */
